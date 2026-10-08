@@ -1,0 +1,8 @@
+12 CONGRESO INTERNACIONAL DEL ICEA — Dashboard preliminar
+
+1. Descomprime el archivo ZIP.
+2. Abre index.html para ver el diseño.
+3. Para publicar en GitHub Pages, sube index.html y la carpeta assets/ conservando sus nombres y rutas.
+4. El logo oficial se carga como imagen separada, no está integrado a la fotografía.
+5. Registro, inicio de sesión y carga de manuscritos están deshabilitados. Requieren configuración posterior de autenticación, base de datos, almacenamiento privado y políticas de acceso.
+6. Las fechas y convocatoria se mantienen pendientes de confirmación.
