@@ -1,0 +1,22 @@
+-- BORRADOR DE DISEÑO. NO EJECUTAR EN PRODUCCIÓN.
+-- La migración definitiva requiere integrar primero las vistas y políticas
+-- de seguridad para los cinco roles. Se conserva esquema.sql intacto.
+-- Modelo acordado: dos revisores independientes, decisión del comité.
+-- Tablas propuestas (especificación, NO migración ejecutable):
+-- asignaciones(id, trabajo_id, revisor_id, numero_slot 1/2,
+--   asignado_por, fecha_asignacion, fecha_limite, estado)
+-- evaluaciones(id, asignacion_id UNIQUE, criterios JSONB,
+--   comentarios_autor, comentarios_comite, recomendacion,
+--   fecha_envio, estado)
+-- dictamenes(id, trabajo_id, decision, motivacion, decidido_por,
+--   fecha_decision, ronda)
+-- auditoria(id, actor_id, accion, entidad, entidad_id, fecha, detalles)
+-- Reglas obligatorias antes de ejecutar cualquier SQL:
+-- 1. UNIQUE(trabajo_id, numero_slot); UNIQUE(trabajo_id, revisor_id).
+-- 2. Dos slots, dos cuentas distintas, sin conflicto de interés.
+-- 3. El revisor ve solo sus asignaciones y su propia evaluación.
+-- 4. El comité ve las dos evaluaciones y emite el dictamen.
+-- 5. El autor ve su trabajo y el dictamen liberado, nunca evaluaciones internas.
+-- 6. La coordinación consulta indicadores y pagos, sin editar dictámenes.
+-- 7. Solo administradores autorizados asignan roles; nunca el usuario.
+-- 8. RLS y permisos de Storage se prueban con cuentas reales por rol.
