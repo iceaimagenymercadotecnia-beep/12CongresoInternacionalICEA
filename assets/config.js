@@ -8,7 +8,7 @@ window.CONGRESO_CONFIG = {
   supabaseAnonKey: '',
 
   // false = el botón "Crear cuenta" se oculta (por ejemplo, antes de publicar la convocatoria)
-  registroAbierto: true,
+  registroAbierto: false, // Activar solo tras configurar Supabase, correo y aviso de privacidad
 
   // Texto que verán los autores junto al comprobante de pago
   indicacionesPago: 'Sube tu comprobante en PDF, JPG o PNG. El comité lo validará y verás el estatus aquí mismo.'
