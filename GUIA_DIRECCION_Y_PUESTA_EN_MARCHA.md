@@ -1,4 +1,4 @@
-# 12.º Congreso ICEA — Prototipo para Dirección y puesta en marcha
+# 12º Congreso ICEA — Prototipo para Dirección y puesta en marcha
 
 ## Presentación a Dirección
 Abrir `prototipo-directora.html` (o desde el enlace «Ver prototipo» en `index.html`). Es una demostración navegable **sin base de datos**, con cifras y folios ficticios; ninguna acción registra datos reales ni genera constancias válidas.

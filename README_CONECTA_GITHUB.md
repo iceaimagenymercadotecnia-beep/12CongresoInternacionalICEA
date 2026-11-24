@@ -5,7 +5,7 @@ Sube **el contenido de esta carpeta** a la raíz del repositorio (no la carpeta 
 
 ## Contenido
 - `index.html`: portada general CONECTA I+D+i con cuatro eventos.
-- `congreso-icea.html`: página previa del 12.º Congreso ICEA.
+- `congreso-icea.html`: página previa del 12º Congreso ICEA.
 - `comercio-exterior.html`, `administracion.html`, `foro-turismo.html`: espacios informativos en preparación.
 - `investigacion.html`: módulo de investigación en preparación.
 - `registro-demo.html` y `prototipo-directora.html`: demostraciones sin almacenamiento real.

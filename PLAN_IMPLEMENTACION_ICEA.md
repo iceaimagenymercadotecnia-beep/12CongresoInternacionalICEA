@@ -1,4 +1,4 @@
-# 12.º Congreso Internacional del ICEA — Plan de implementación
+# 12º Congreso Internacional del ICEA — Plan de implementación
 
 ## Estado de esta entrega
 
